@@ -20,3 +20,9 @@ ln -sf $CONDA_PREFIX/bin/x86_64-conda-linux-gnu-g++ $CONDA_PREFIX/bin/g++ #symbo
 $CONDA_PREFIX/bin/g++ --version #check
 export PATH=$CONDA_PREFIX/bin:$PATH #include the path
 ```
+
+# PyTorch
+
+```
+conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+```
